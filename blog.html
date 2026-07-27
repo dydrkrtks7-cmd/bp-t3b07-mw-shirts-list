@@ -1,404 +1,127 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-neon-void">
-    <meta name="description" content="망원 셔츠룸 모음, 진짜 망원 셔츠룸 정보는 여기. 망원 셔츠룸 가격, 후기, 위치 한방에 비교. 니가 찾던 그곳, 망원 셔츠룸 끝판왕. 010-6279-0862">
-    <meta name="keywords" content="망원셔츠룸, 망원 셔츠룸 모음, 망원 셔츠룸 추천, 망원 셔츠룸 가격, 망원 셔츠룸 후기, 망원룸, 셔츠룸 망원">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://t3b07-mw-shirts-list.vercel.app/blog">
-    <!-- Open Graph -->
-    <meta property="og:title" content="망원 셔츠룸 모음 | 블로그">
-    <meta property="og:description" content="망원 셔츠룸 모음, 진짜 망원 셔츠룸 정보는 여기. 망원 셔츠룸 가격, 후기, 위치 한방에 비교. 니가 찾던 그곳, 망원 셔츠룸 끝판왕.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://t3b07-mw-shirts-list.vercel.app/blog">
-    <meta property="og:image" content="https://t3b07-mw-shirts-list.vercel.app/og-image.jpg">
-    <meta property="og:locale" content="ko_KR">
-    <meta property="og:site_name" content="망원 셔츠룸 모음">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="망원 셔츠룸 모음 | 블로그">
-    <meta name="twitter:description" content="망원 셔츠룸 모음, 진짜 망원 셔츠룸 정보는 여기. 망원 셔츠룸 가격, 후기, 위치 한방에 비교. 니가 찾던 그곳, 망원 셔츠룸 끝판왕.">
-    <meta name="twitter:image" content="https://t3b07-mw-shirts-list.vercel.app/og-image.jpg">
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "망원 셔츠룸, 왜 니가 직접 가봐야 하는가?",
-        "description": "망원 셔츠룸 모음에 대한 솔직한 리뷰와 꿀팁. 가격, 위치, 분위기까지 전부 까발린다.",
-        "author": {
-            "@type": "Person",
-            "name": "셔츠킹"
-        },
-        "datePublished": "2025-03-21",
-        "publisher": {
-            "@type": "Organization",
-            "name": "망원 셔츠룸 모음"
-        }
-    }
-    </script>
-    <title>망원 셔츠룸 모음 | 블로그</title>
-    <style>
-        /* RESET & BASE */
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            font-size: 16px;
-            scroll-behavior: smooth;
-        }
-        body {
-            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #0a0a0a;
-            color: #e0e0e0;
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-        a {
-            color: #ff3b3b;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        a:hover {
-            color: #ff6b6b;
-            text-decoration: underline;
-        }
-        img, svg {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-        /* LAYOUT - FULL BLEED */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1.5rem;
-        }
-        /* HEADER */
-        .header {
-            background: #111;
-            border-bottom: 3px solid #ff3b3b;
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: 0 4px 20px rgba(255, 59, 59, 0.2);
-        }
-        .header .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .header-logo {
-            font-size: 1.8rem;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: #fff;
-            text-shadow: 0 0 10px rgba(255, 59, 59, 0.5);
-        }
-        .header-logo span {
-            color: #ff3b3b;
-        }
-        .header-nav {
-            display: flex;
-            gap: 2rem;
-            align-items: center;
-        }
-        .header-nav a {
-            color: #ccc;
-            font-weight: 700;
-            font-size: 0.95rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            padding: 0.5rem 0;
-            border-bottom: 2px solid transparent;
-            transition: all 0.2s;
-        }
-        .header-nav a:hover {
-            color: #ff3b3b;
-            border-bottom-color: #ff3b3b;
-            text-decoration: none;
-        }
-        /* HAMBURGER MENU */
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            background: none;
-            border: none;
-            padding: 0.5rem;
-        }
-        .hamburger span {
-            width: 28px;
-            height: 3px;
-            background: #fff;
-            margin: 4px 0;
-            border-radius: 2px;
-            transition: 0.3s;
-        }
-        .hamburger.active span:nth-child(1) {
-            transform: rotate(45deg) translate(5px, 5px);
-        }
-        .hamburger.active span:nth-child(2) {
-            opacity: 0;
-        }
-        .hamburger.active span:nth-child(3) {
-            transform: rotate(-45deg) translate(5px, -5px);
-        }
-        /* HERO SECTION */
-        .hero {
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
-            padding: 4rem 0;
-            text-align: center;
-            border-bottom: 2px solid #ff3b3b;
-            position: relative;
-            overflow: hidden;
-        }
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle, rgba(255, 59, 59, 0.05) 0%, transparent 70%);
-            animation: pulse 4s ease-in-out infinite;
-        }
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); opacity: 0.5; }
-            50% { transform: scale(1.2); opacity: 1; }
-        }
-        .hero h1 {
-            font-size: 3rem;
-            font-weight: 900;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            margin-bottom: 1rem;
-            position: relative;
-            text-shadow: 0 0 20px rgba(255, 59, 59, 0.3);
-        }
-        .hero h1 span {
-            color: #ff3b3b;
-        }
-        .hero p {
-            font-size: 1.2rem;
-            color: #aaa;
-            max-width: 700px;
-            margin: 0 auto;
-            position: relative;
-        }
-        /* BLOG POST */
-        .blog-post {
-            padding: 4rem 0;
-        }
-        .blog-post .container {
-            max-width: 800px;
-        }
-        .blog-post article {
-            background: #111;
-            border: 2px solid #222;
-            padding: 2.5rem;
-            border-radius: 8px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-        }
-        .blog-post h2 {
-            font-size: 2rem;
-            font-weight: 800;
-            color: #fff;
-            margin-bottom: 1.5rem;
-            border-left: 4px solid #ff3b3b;
-            padding-left: 1rem;
-        }
-        .blog-post h3 {
-            font-size: 1.4rem;
-            font-weight: 700;
-            color: #ff3b3b;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-        }
-        .blog-post p {
-            font-size: 1.05rem;
-            color: #ccc;
-            margin-bottom: 1.2rem;
-            line-height: 1.8;
-        }
-        .blog-post ul, .blog-post ol {
-            margin: 1rem 0 1.5rem 2rem;
-            color: #ccc;
-        }
-        .blog-post li {
-            margin-bottom: 0.5rem;
-            font-size: 1.05rem;
-        }
-        .blog-post .highlight-box {
-            background: #1a1a2e;
-            border-left: 4px solid #ff3b3b;
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border-radius: 0 8px 8px 0;
-        }
-        .blog-post .highlight-box p {
-            margin-bottom: 0.5rem;
-        }
-        .blog-post .cta-button {
-            display: inline-block;
-            background: #ff3b3b;
-            color: #fff;
-            font-weight: 800;
-            padding: 1rem 2rem;
-            border-radius: 4px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-top: 1rem;
-            transition: all 0.3s;
-            border: none;
-            cursor: pointer;
-            text-align: center;
-        }
-        .blog-post .cta-button:hover {
-            background: #e63030;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 15px rgba(255, 59, 59, 0.4);
-            text-decoration: none;
-        }
-        .blog-meta {
-            display: flex;
-            gap: 1.5rem;
-            color: #888;
-            font-size: 0.9rem;
-            margin-bottom: 2rem;
-            padding-bottom: 1rem;
-            border-bottom: 1px solid #222;
-        }
-        .blog-meta span {
-            display: flex;
-            align-items: center;
-            gap: 0.3rem;
-        }
-        /* FOOTER */
-        .footer {
-            background: #111;
-            border-top: 3px solid #ff3b3b;
-            padding: 2rem 0;
-            text-align: center;
-            margin-top: 2rem;
-        }
-        .footer p {
-            color: #888;
-            font-size: 0.9rem;
-        }
-        .footer a {
-            color: #ff3b3b;
-        }
-        /* RESPONSIVE 768 */
-        @media (max-width: 768px) {
-            .header .container {
-                flex-wrap: wrap;
-            }
-            .header-nav {
-                display: none;
-                width: 100%;
-                flex-direction: column;
-                gap: 0.5rem;
-                padding: 1rem 0;
-                background: #111;
-                border-top: 2px solid #ff3b3b;
-                margin-top: 0.5rem;
-            }
-            .header-nav.open {
-                display: flex;
-            }
-            .hamburger {
-                display: flex;
-            }
-            .hero h1 {
-                font-size: 2rem;
-            }
-            .hero p {
-                font-size: 1rem;
-                padding: 0 1rem;
-            }
-            .blog-post article {
-                padding: 1.5rem;
-            }
-            .blog-post h2 {
-                font-size: 1.5rem;
-            }
-            .blog-meta {
-                flex-direction: column;
-                gap: 0.5rem;
-            }
-        }
-        /* TEL LINK */
-        .tel-link {
-            color: #ff3b3b;
-            font-weight: 800;
-            font-size: 1.1rem;
-            padding: 0.5rem 1rem;
-            border: 2px solid #ff3b3b;
-            border-radius: 4px;
-            transition: all 0.3s;
-            white-space: nowrap;
-        }
-        .tel-link:hover {
-            background: #ff3b3b;
-            color: #fff;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>망원 셔츠룸 모음 — 블로그</title>
+  <meta name="description" content="망원에 위치한 셔츠룸을 다양한 상황에 맞춰 분석하고, 인원·시점·목적에 따라 최적의 선택 기준을 제시합니다.">
+  <meta name="keywords" content="망원 셔츠룸, 망원 패션, 셔츠 선택 가이드, 상황별 셔츠 추천">
+  <link rel="canonical" href="https://mangwon-shirt-note.link-hub.org/blog.html">
+  <meta property="og:title" content="망원 셔츠룸 모음 — 블로그">
+  <meta property="og:description" content="망원에 있는 셔츠룸을 상황별·인원별·시점별로 깊이 있게 탐구하고, 선택 전략을 제시합니다.">
+  <meta property="og:url" content="https://mangwon-shirt-note.link-hub.org/blog.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://mangwon-shirt-note.link-hub.org/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- 기존 CSS 파일을 그대로 사용 -->
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
-<body>
-    <!-- HEADER -->
-    <header class="header">
-        <div class="container">
-            <a href="/" class="header-logo">망원<span>셔츠룸</span></a>
-            <button class="hamburger" aria-label="메뉴 열기" onclick="this.classList.toggle('active'); document.querySelector('.header-nav').classList.toggle('open');">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav class="header-nav">
-                <a href="/">홈</a>
-                <a href="/list">리스트</a>
-                <a href="/blog">블로그</a>
-                <a href="tel:01062790862" class="tel-link">📞 010-6279-0862</a>
-            </nav>
-        </div>
-    </header>
+<body class="r-body-rnyc">
+  <!-- 헤더 네비게이션 (공통) -->
+  <header class="x-head-cxhp">
+    <div class="q-hero-6kr9">
+      <h1>망원 셔츠룸 모음</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/index.html">홈</a></li>
+        <li><a href="/map.html">지도</a></li>
+        <li><a href="/list.html">리스트</a></li>
+        <li><a href="/blog.html">블로그</a></li>
+        <li><a href="/contact.html">연락처</a></li>
+      </ul>
+    </nav>
+    <input type="checkbox" id="nav-toggle">
+    <label for="nav-toggle" class="hamburger">☰</label>
+  </header>
 
-    <!-- HERO -->
-    <section class="hero">
-        <div class="container">
-            <h1>망원 셔츠룸, <span>왜 니가 직접 가봐야 하는가?</span></h1>
-            <p>인터넷에 떠도는 가짜 후기는 집어치워. 진짜 망원 셔츠룸의 모든 것을 까발린다. 가격, 분위기, 팁까지 전부 다.</p>
-        </div>
-    </section>
+  <!-- 메인 히어로 -->
+  <section class="k-item-n2ep-grid">
+    <h2>밤거리 트랜싯 맵 - 셔츠 선택의 새로운 패러다임</h2>
+    <p>
+      망원의 골목길을 누비며 마주치는 셔츠룸은 모두 같은 옷을 파는 곳이 아니다. 사람마다, 시간마다, 목적마다 달라지는 미묘한 차이를 이해하지 못한다면, 가장 눈에 띄는 아이템조차 놓치기 쉽다. 이 글에서는 <strong>Night Transit Map</strong>이라는 콘셉트를 차용해, 어두운 골목을 지나칠 때도 올바른 셔츠를 고를 수 있는 전략을 제시한다.
+    </p>
+    <p>
+      기존의 “인기 최고” 혹은 “가성비 굿”이라는 단순 분류는 이제 지나친 안주다. 우리는 <em>누구와 어디에 갈 것인가</em>, <em>어떤 분위기의 저녁을 맞이할 것인가</em>를 기준으로 셔츠를 평가한다. 이 과정에서 도출된 체크리스트와 상황별 가이드를 이번 블로그에 담았다.
+    </p>
+  </section>
 
-    <!-- BLOG POST -->
-    <section class="blog-post">
-        <div class="container">
-            <article>
-                <div class="blog-meta">
-                    <span>✍️ 셔츠킹</span>
-                    <span>📅 2025.03.21</span>
-                    <span>🔥 조회 1,247</span>
-                </div>
-                <h2>망원 셔츠룸, 니가 몰랐던 진실</h2>
-                <p>야, 형들. 망원 셔츠룸 검색하고 여기까지 왔다는 건, 이미 니가 진짜를 찾고 있다는 증거다. 인터넷에 널린 가짜 리뷰, 광고 블로그에 속아서 돈 날리는 꼴은 이제 그만 봐. 내가 직접 발로 뛰고, 돈 내고, 경험한 내용만 까발린다.</p>
+  <!-- 상황별 셔츠 선택 가이드 -->
+  <section class="k-item-n2ep-grid">
+    <h3>1️⃣ 인원·시점·목적에 따른 분기</h3>
 
-                <div class="highlight-box">
-                    <p><strong>🔥 핵심 요약:</strong> 망원 셔츠룸은 가성비 끝판왕이다. 하지만 무조건 싼 게 좋은 게 아니다. 니가 원하는 분위기, 시스템, 꼬시는 법까지 알아야 제대로 즐긴다.</p>
-                </div>
+    <h4>가족 모임·친구와의 저녁</h4>
+    <p>
+      인원 수가 많아질수록 색상과 패턴에서 균형을 잡아야 한다. 특히 저녁 시간대는 조명이 어두워 색 대비가 강조되므로, <strong>어두운 바탕에 밝은 포인트 라인이 들어간 셔츠</strong>가 눈에 잘 띈다. 소재는 통기성이 좋은 코튼 혹은 린넨을 선택해, 긴 대화 시간에도 쾌적함을 유지한다.
+    </p>
+    <p>
+      한편, 가족 모임에서는 과도한 그래픽보다 클래식한 스트라이프나 체크무늬가 무난하다. 하지만 “친구와의 자유로운 술자리”라면, 약간의 무채색 배경 위에 그래픽 엠블럼을 포인트로 넣어도 좋다. 이렇게 인원과 목적을 동시에 고려하면, 모두가 만족하는 조화로운 룩을 완성한다.
+    </p>
 
-                <h3>1. 망원 셔츠룸, 왜 핫한가?</h3>
-                <p>망원동은 원래 조용한 동네였는데, 요즘 셔츠룸이 우후죽순 생기고 있어. 이유가 뭘까? 바로 <strong>가성비</strong>다. 강남이나 홍대처럼 바가지쓰는 곳이 아니라, 합리적인 가격에 퀄리티 높은 서비스를 받을 수 있거든. 게다가 망원은 교통도 편하고, 주차도 널널해. 니 차 끌고 와도 스트레스 제로.</p>
+    <h4>데이트·첫인상</h4>
+    <p>
+      첫 만남은 언제나 긴장감이 흐른다. 이때는 <strong>심플하면서도 디테일이 살아있는 디자인</strong>을 선택한다. 어두운 저녁 외출이라면, 약간의 루즈핏을 가진 셔츠를 레이어드해 신비로운 분위기를 연출할 수 있다. 반면, 밝은 조명 아래라면 슬림핏과 깔끔한 라인이 강조된 화이트나 라이트 블루 색상이 안전하다.
+    </p>
+    <p>
+      소재는 부드러운 실크 혼방 혹은 고급 코튼을 사용해, 손끝에 닿는 촉감까지도 자신감을 불어넣는다. 또, 셔츠의 목선과 소매 길이를 잘 맞추어 체형을 보완하면, 작은 디테일 하나가 전체 분위기를 뒤바꾼다.
+    </p>
 
-                <h3>2. 가격, 솔직히 말해줄게</h3>
-                <p>여기저기서 "합리적인 가격"이라고 광고하지만, 솔직히 말해줄게. 망원 셔츠룸 평균 가격대는 <strong>1시간 기준 10~15만원</strong> 사이야. 물론 업소마다 차이는 있지만, 이 가격이면 기본 시스템에 1차, 2차까지 커버되는 곳이 많아. 강남 반값이라고 보면 된다. 단, 너무 싼 곳은 걸러. 7~8
+    <h4>업무·오피스 환경</h4>
+    <p>
+      업무 환경에서는 <strong>전통적인 비즈니스 스타일</strong>을 유지하되, 최신 트렌드에서 영감을 얻은 미니멀한 컬러 블록을 활용한다. 회색·네이비·다크 그린 같은 어두운 컬러에 얇은 와이드 라인 포켓을 넣으면, 무겁지 않은 포멀함을 연출한다.
+    </p>
+    <p>
+      특히, 망원의 밤길에 위치한 셔츠룸은 조명과 습도가 달라 보관 상태가 까다롭다. 따라서 셔츠를 구매할 때는 “주름 방지 처리”가 된 제품인지, 혹은 “재생 섬유 사용” 여부를 확인하는 것이 장기적인 관리에 도움이 된다.
+    </p>
+  </section>
+
+  <!-- 체크리스트 카드 -->
+  <section class="k-item-n2ep-grid">
+    <h3>📝 셔츠 선택 체크리스트</h3>
+    <div class="card-grid">
+      <div class="card">
+        <h4>색상 대비</h4>
+        <p>조명 환경에 맞춰 어두운 배경엔 밝은 색, 밝은 배경엔 어두운 색을 선택한다.</p>
+      </div>
+      <div class="card">
+        <h4>소재 감촉</h4>
+        <p>통기성·땀 흡수·주름 방지 등 착용 목적에 맞는 소재를 검증한다.</p>
+      </div>
+      <div class="card">
+        <h4>핏 & 라인</h4>
+        <p>체형·인원·활동성을 고려해 슬림·레귤러·루즈 중 하나를 고른다.</p>
+      </div>
+      <div class="card">
+        <h4>디테일 포인트</h4>
+        <p>포켓·버튼·스티치 등 작은 디테일이 전체 분위기를 좌우한다.</p>
+      </div>
+    </div>
+    <p>
+      위 체크리스트는 상황에 따라 조합하여 사용할 수 있다. 예를 들어, 저녁 데이트와 가족 모임을 동시에 겸한다면 색상 대비와 소재 감촉을 우선시하고, 디테일 포인트는 최소화해 균형을 맞춘다.
+    </p>
+  </section>
+
+  <!-- FAQ -->
+  <section class="k-item-n2ep-grid">
+    <h3>❓ 자주 묻는 질문</h3>
+
+    <h4>Q1. 밤에 셔츠룸을 방문하면 어떤 점을 먼저 확인해야 할까요?</h4>
+    <p>
+      조명이 어두워 색상이 왜곡될 수 있으니, 실제 색상을 눈에 익숙한 곳(예: 카페, 스튜디오)에서 다시 확인하는 것이 좋다. 또한, 밤시간대는 습도가 높아 소재가 쉽게 주름지므로, 구입 전 바로 착용해 보면서 주름 저항성을 체크한다.
+    </p>
+
+    <h4>Q2. 인원 수가 많을수록 어떤 셔츠를 골라야 하나요?</h4>
+    <p>
+      인원 수가 많을수록 시각적 통일성이 필요하다. 따라서 동일 톤의 셔츠를 여러 벌 구입하거나, 최소한 색상 계열이 일치하는 제품을 선택한다. 이렇게 하면 그룹 사진이나 모임에서 전체적인 조화가 돋보인다.
+    </p>
+
+    <h4>Q3. 셔츠를 오래 보관하려면 어떻게 해야 하나요?</h4>
+    <p>
+      망원의 셔츠룸 대부분이 옛 건물을 개조해 만든 공간이라 온도와 습도 관리가 까다롭다. 구입 직후는 옷걸이에 걸어 통풍이 잘 되는 곳에 두고, 장기간 보관 시에는 방수·방습 커버를 사용한다. 또한, 주기적으로 옷감을 뒤집어 주어 변형을 방지한다.
+    </p>
+  </section>
+
+  <footer class="r-body-rnyc">
+    <p>© 2026 망원 셔츠룸 모음. All rights reserved.</p>
+  </footer>
 </body>
 </html>
